@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UplayFalso
 {
-    class Software
+    public abstract class Software
     {
         public string TypeTool;
         public DateTime Start;

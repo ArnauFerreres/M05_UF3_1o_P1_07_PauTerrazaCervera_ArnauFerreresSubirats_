@@ -8,7 +8,7 @@ namespace UplayFalso
     {
         public string Title;
         public string Description;
-        public List<Icons> icons;
+        public List<Icons> Icons;
         public List<Icons> BigBanner;
         public string urlTrailer;
         public float Price;

@@ -4,7 +4,18 @@ using System.Text;
 
 namespace UplayFalso
 {
-    class Products
+    public abstract class Products
     {
+        public string Title;
+        public string Description;
+        public List<Icons> icons;
+        public List<Icons> BigBanner;
+        public string urlTrailer;
+        public float Price;
+        public DateTime publishingDate;
+        public int Size;
+        public List<string> Developers;
+        public List<string> Producers;
+        public string DLC;
     }
 }

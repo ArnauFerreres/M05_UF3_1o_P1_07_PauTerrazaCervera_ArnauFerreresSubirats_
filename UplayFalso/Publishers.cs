@@ -11,6 +11,6 @@ namespace UplayFalso
         public string Adress;
         public string WebPage;
         public string SupportEmail;
-        public List<Icons>;
+        public List<Icons> Icons;
     }
 }
